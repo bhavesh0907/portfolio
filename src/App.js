@@ -14,7 +14,6 @@ import Socials from "./sections/Socials";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import AIBackground from "./components/AIBackground";
-import AnimatedCursor from "react-animated-cursor";
 import Loader from "./components/Loader";
 import ScrollProgress from "./components/ScrollProgress";
 
@@ -31,7 +30,6 @@ function App() {
     <>
       <ParallaxLayer speed={0.01} />
       <ParallaxLayer speed={0.02} />
-      <AnimatedCursor color="249,115,22" />
       <CursorGlow />
       <AIBackground />
       <ScrollProgress />
